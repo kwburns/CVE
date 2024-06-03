@@ -1,0 +1,3 @@
+# Ignore .obsidian files and directories
+.obsidian
+.obsidian/
