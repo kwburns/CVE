@@ -22,6 +22,12 @@ Affected assets are based on tested firmware versions. It's possible that other 
 **REV03 6869i 5.0.0.1018 SP1**
 - https://www.mitel.com/-/media/mitel/file/zip/open-solutions/6869/58015373rev035001018sp16869i.zip?modified=20180425183909
 
+### CVE-ID
+CVE-2024-37569
+
+### Credit
+Kyle Burns (kburns@packetlabs.net), Eric Salario (esalario@packetlabs.net), Michael Alampi (malampi@packetlabs.net) 
+
 ## Authenticated Remote Command Execution (firmware)
 The Mitel 6869i SIP Phone, firmware version 4.5.0.41 fails to properly sanitize user supplied input. The 'Manual Firmware Update' (`upgrade.html`) page does not perform sanitization the `username` and `path` parameter prior to appending the flags to the busybox `ftpget` command. 
 
@@ -35,3 +41,9 @@ By sending a specially crafted HTTP POST request containing command substitution
 Affected assets are based on tested firmware versions. It's possible that other versions may contain the same vulnerability. 
 **REV03 6869i 5.0.0.1018 SP1**
 - https://www.mitel.com/-/media/mitel/file/zip/open-solutions/6869/58015373rev035001018sp16869i.zip?modified=20180425183909
+
+### CVE-ID
+CVE-2024-37570
+
+### Credit
+Kyle Burns (kburns@packetlabs.net)
