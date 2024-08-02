@@ -16,6 +16,7 @@ A full demonstration against the Mitel 6869i SIP Phone 4.5.0.41 can be viewed on
 
 ### Affected Assets
 Affected assets are based on tested firmware versions. It's possible that other versions may contain the same vulnerability. 
+
 **REV00 6869i 4.5.0.41**
 - https://www.mitel.com/-/media/mitel/file/zip/open-solutions/6869/58015546rev00450416869i.zip?modified=20180425183828
 
@@ -39,8 +40,8 @@ By sending a specially crafted HTTP POST request containing command substitution
 
 ### Affected Assets
 Affected assets are based on tested firmware versions. It's possible that other versions may contain the same vulnerability. 
-**REV03 6869i 5.0.0.1018 SP1**
-- https://www.mitel.com/-/media/mitel/file/zip/open-solutions/6869/58015373rev035001018sp16869i.zip?modified=20180425183909
+**REV00 6869i 4.5.0.41**
+- https://www.mitel.com/-/media/mitel/file/zip/open-solutions/6869/58015546rev00450416869i.zip?modified=20180425183828
 
 ### CVE-ID
 CVE-2024-37570
