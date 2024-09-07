@@ -1,5 +1,5 @@
 # CVE
-A repository containing exploit code for disclosed zero-day vulnerabilities I've discovered. 
+A repository containing exploit code / zero-day research I've worked on.  
 
 ## Products
 ### Mitel 
