@@ -32,11 +32,11 @@ Kyle Burns (kburns@packetlabs.net), Eric Salario (esalario@packetlabs.net), Mich
 ## Authenticated Remote Command Execution (firmware)
 The Mitel 6869i SIP Phone, firmware version 4.5.0.41 fails to properly sanitize user supplied input. The 'Manual Firmware Update' (`upgrade.html`) page does not perform sanitization the `username` and `path` parameter prior to appending the flags to the busybox `ftpget` command. 
 
-![source](images/01.png)
+![source](Mitel/5.0.0.1018/images/01.png)
 
 By sending a specially crafted HTTP POST request containing command substitution syntax (`$()`) to the endpoint `upgrade.html` arbitrary commands can be executed.  
 
-![source](images/02.png)
+![source](Mitel/5.0.0.1018/images/02.png)
 
 ### Affected Assets
 Affected assets are based on tested firmware versions. It's possible that other versions may contain the same vulnerability. 
