@@ -34,7 +34,7 @@ Behind the scenes, looking at the pGina.Fork log files, the content from the mal
 * https://github.com/MutonUfoAI/pgina/archive/3.9.9.12.zip
 
 ### CVE-ID
-
+CVE-2025-48027
 
 ### CWE
 CWE-290: Authentication Bypass by Spoofing, CWE-350: Reliance on \*DNS Resolution for a Security-Critical Action
